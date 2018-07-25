@@ -1,0 +1,97 @@
+#define {
+#define RS232_READ_TIMEOUT 500ms
+/*#define RS232_READ_TIMEOUT 100ms*/
+#define RS232_READ_CHAR_TIMEOUT 2ms
+};
+set {
+char manufacturer[50] = {Guildline Instruments} format = %s;
+char deviceid[35] = Pic24Diagnostics format = %s;
+long serialNumber = 0 min = 0 max = 200000 default 0 format = %li;
+char revision[5] = A format = %s;
+unsigned char StatusRegister = 5;
+unsigned char ese = 0;
+unsigned char esr = 0;
+unsigned char sre = 0;
+unsigned char opc = 0;
+unsigned char opt = 0;
+double temperature;
+unsigned char measureState = 0 min = 0 max = 1 default 0;
+unsigned char phase = 4 min = 0 max = 4 default 4;
+int displayFrequencyRate = 1 min = 1 max = 3600 default = 1;
+int year = 2010 min = 1999 max = 2100 default 2010 format = %4i;
+unsigned char month = 1 min = 1 max = 12 default 1;
+unsigned char day = 1 min = 1 max = 31 default 1;
+unsigned char hour = 0 min = 1 max = 23 default 1;
+unsigned char minute = 0 min = 0 max = 59 default 0;
+unsigned char second = 0 min = 0 max = 59 default 0;
+unsigned char diag1 = 0  min = 0 max = 15 default 0;
+unsigned char diag2 = 0  min = 0 max = 15 default 0;
+unsigned char diag3 = 0  min = 0 max = 15 default 0;
+unsigned char diag4 = 0  min = 0 max = 15 default 0;
+unsigned char debug1 = 0  min = 0 max = 15 default 0;
+unsigned char debug2 = 0  min = 0 max = 15 default 0;
+unsigned char debug3 = 0  min = 0 max = 15 default 0;
+unsigned char debug4 = 0  min = 0 max = 15 default 0;
+};
+definecodes {
+/* not currently implemented */
+UNITS {A[mperes],V[olts],V[olt]A[mpere],W[att],W[att]h[our],?|Ohm,F[arads],B[au]d,H[er]z,°C[elsius],°F[ahrenheit],°R[ankine],K[elvin]}
+SCALE {y[octo]z[epto],a[tto],f[emto],p[ico],n[ano],µ|micro,m[illi],c[enti],d[eci],,d[ec]a,h[eco],k[ilo],M[ega],G[iga],T[era],P[eta],E[xa],Z[etta],Y[otta]} =
+	{10^-24,10^-21,10^-18,10^-15,10^-12,10^-9,10^-6,10^-3,10^-2,10^-1,10^0,10^1,10^2,10^3,10^6,10^9,10^12,10^15,10^18,10^21,10^24}
+};
+scpi {
+*RST
+SYSTem:REMOTE
+*CLS
+*ESE?
+*ESE <ese>
+*ESR?
+*IDN?
+*OPC?
+*OPC
+*OPT?
+*SRE?
+*SRE <sre>
+*STB?
+*TST?
+*WAI
+SYSTem:DATE?
+SYSTem:DATE <year>,<month>,<day> #UserExit setDate
+SYSTem:TIME?
+SYSTem:TIME <hour>,<minute>,<second> #UserExit setTime
+MEASure?
+MEASure <measureState>
+Configure:Phase?
+Configure:Phase <phase>
+Configure:Displayfrequencyrate?
+Configure:Displayfrequencyrate <displayFrequencyRate> #UserExit setDisplayFrequencyRate
+RESET
+SerialNumber?
+SerialNumber <serialNumber> #UserExit setSerialNumber 
+SYSTem:DIAGnostic:MEASure?
+SYSTem:DIAGnostic:MEASure <diag1>,<diag2>,<diag3>,<diag4>
+SYSTem:DIAGnostic:DEBUG?
+SYSTem:DIAGnostic:DEBUG <debug1>,<debug2>,<debug3>,<debug4>
+SYSTem:KEY?
+SYSTem:LOCKOUT
+SYSTem:VERSion?
+SYSTem:VERBose
+SYSTem:TERSe
+SYSTem:LOCAL
+};
+def {
+*ESR? <esr>
+*IDN? <manufacturer>,<deviceid>,<serialNumber>,<revision>
+*OPC? <opc>
+*OPT? <opt>
+*STB? <StatusRegister>
+*TST? <StatusRegister>
+SYSTem:VERSion? <revision>
+SYSTem:KEY? <key>
+};
+system:remote
+*stb?
+*idn?
+SYSTem:TERSe
+*stb?
+#test

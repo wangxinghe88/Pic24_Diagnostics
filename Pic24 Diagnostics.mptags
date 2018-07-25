@@ -1,0 +1,553 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BAUDRATE1::115200	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	26;"	d	line:26	file:
+BAUDRATE2::19200	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	29;"	d	line:29	file:
+BRGVAL1::((FCY/BAUDRATE1)/16)-1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	27;"	d	line:27	file:
+BRGVAL2::((FCY/BAUDRATE2)/16)-1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	30;"	d	line:30	file:
+Bit	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	104;"	m	line:104
+Byte	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	94;"	m	line:94
+COMMAND_MAX::200	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	11;"	d	line:11
+COMMAND_MAX::200	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	15;"	d	line:15
+ChangeCurrentState	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	362;"	f	line:362	file:	signature:( TMiResult Result)
+ChangeCurrentState	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	37;"	p	line:37	file:
+CommandIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	20;"	v	line:20
+CommandLine	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	10;"	v	line:10
+CurrentState	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	52;"	v	line:52	file:
+DATA_EE_FLAGS	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	101;"	t	line:101
+DATA_EE_SIZE::31	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	42;"	d	line:42
+DEF::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	16;"	d	line:16
+DEFAULT::1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	18;"	d	line:18
+DEFAULT_DEFINED::4	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	14;"	d	line:14
+DEVICEID_DEFINED::16	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	16;"	d	line:16
+DataEEInit	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	437;"	f	line:437	signature:(void)
+DataEEInit	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	119;"	p	line:119	signature:(void)
+DataEERead	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	553;"	f	line:553	signature:(unsigned int addr)
+DataEERead	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	120;"	p	line:120	signature:(unsigned int addr)
+DataEEWrite	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	631;"	f	line:631	signature:(unsigned int data, unsigned int addr)
+DataEEWrite	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	121;"	p	line:121	signature:(unsigned int data, unsigned int addr)
+DefCount	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	29;"	v	line:29
+DefIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	155;"	v	line:155
+DisplayFrequencyRate	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	192;"	v	line:192
+ERASE::0x4042	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	43;"	d	line:43
+ERASE_WRITE_CYCLE_MAX::1000	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	49;"	d	line:49
+ESR_CME::(1<<5)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	5;"	d	line:5
+ESR_CME::(1<<5)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	6;"	d	line:6
+ESR_DDE::(1<<3)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	7;"	d	line:7
+ESR_DDE::(1<<3)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	8;"	d	line:8
+ESR_EXE::(1<<4)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	6;"	d	line:6
+ESR_EXE::(1<<4)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	7;"	d	line:7
+ESR_OPC::(1<<0)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	10;"	d	line:10
+ESR_OPC::(1<<0)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	11;"	d	line:11
+ESR_PON::(1<<7)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	3;"	d	line:3
+ESR_PON::(1<<7)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	4;"	d	line:4
+ESR_QYE::(1<<2)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	8;"	d	line:8
+ESR_QYE::(1<<2)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	9;"	d	line:9
+ESR_RQC::(1<<1)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	9;"	d	line:9
+ESR_RQC::(1<<1)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	10;"	d	line:10
+ESR_URG::(1<<6)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	4;"	d	line:4
+ESR_URG::(1<<6)	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	5;"	d	line:5
+EV_EXIT	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	48;"	e	line:48	enum:_MICOS_EVENT
+EV_IDLE	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	46;"	e	line:46	enum:_MICOS_EVENT
+EV_INIT	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	47;"	e	line:47	enum:_MICOS_EVENT
+EV_PROCESS_NANO	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	81;"	e	line:81	enum:NANO_EVENT
+EV_PROCESS_SCPI	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	85;"	e	line:85	enum:SCPI_EVENT
+EV_TICK_1_SECOND	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	77;"	e	line:77	enum:TIMER_EVENT
+EV_TICK_500_MSEC	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	76;"	e	line:76	enum:TIMER_EVENT
+EchoOn	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	55;"	v	line:55
+ErasePage	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	170;"	f	line:170	signature:(unsigned char page)
+ErasePage	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	115;"	p	line:115	signature:(unsigned char page)
+EventQueueOverflow	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	96;"	m	line:96
+FCY::XTFREQ*PLLMODE	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	20;"	d	line:20	file:
+FCY::XTFREQ*PLLMODE/2	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	24;"	d	line:24	file:
+GET_CURRENT_STATE::1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	33;"	d	line:33
+GetNextAvailCount	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	200;"	f	line:200	signature:(void)
+GetNextAvailCount	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	117;"	p	line:117	signature:(void)
+GetPageCorruptStatus::dataEEFlags.pageCorrupt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	66;"	d	line:66
+GetPageExpiredPage::dataEEFlags.expiredPage	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	69;"	d	line:69
+GetPageIllegalAddress::dataEEFlags.IllegalAddress	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	72;"	d	line:72
+GetPagePackBeforeInit::dataEEFlags.packBeforeInit	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	75;"	d	line:75
+GetPagePackBeforePageFull::dataEEFlags.packBeforePageFull	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	78;"	d	line:78
+GetPagePackSkipped::dataEEFlags.packSkipped	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	81;"	d	line:81
+GetPageStatus	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	131;"	f	line:131	signature:(unsigned char page, unsigned char field)
+GetPageStatus	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	114;"	p	line:114	signature:(unsigned volatile char page, unsigned volatile char field)
+GetPageWriteError::dataEEFlags.writeError	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	84;"	d	line:84
+GetaddrNotFound::dataEEFlags.addrNotFound	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	63;"	d	line:63
+I2C2Timeout	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	285;"	l	line:285
+I2CBRGVAL::((FCY/(2*100000)))-1;	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	37;"	d	line:37	file:
+I2C_TIMEOUT_VALUE::2500	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	31;"	d	line:31	file:
+INDEX_ENUMERATED_DEFINED::8	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	15;"	d	line:15
+IllegalAddress	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	97;"	m	line:97
+IncEWCount	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	116;"	p	line:116	signature:(unsigned char *index)
+InitHardware	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	63;"	f	line:63	signature:(void)
+InitHardware	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	24;"	p	line:24	signature:(void)
+InitMCP9801	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	283;"	f	line:283	signature:(void)
+InitMCP9801	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	32;"	p	line:32	signature:(void)
+MAX::3	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	20;"	d	line:20
+MAX_DEFINED::2	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	13;"	d	line:13
+MAX_TEMPERATURE_COUNT::20	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	187;"	d	line:187	file:
+MICOS_EVENT	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	49;"	t	line:49
+MIN::2	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	19;"	d	line:19
+MIN_DEFINED::1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	12;"	d	line:12
+MI_BYTE	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	25;"	t	line:25
+MI_EMPTY::1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.H	18;"	d	line:18
+MI_EVENT_OFFSET::0x20	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	19;"	d	line:19
+MI_EVENT_QUEUE_LENGTH::20	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	50;"	d	line:50
+MI_FALSE::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.C	27;"	d	line:27	file:
+MI_FULL::1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.H	17;"	d	line:17
+MI_MAX_STATE_TRANS_ENTRIES::10	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	45;"	d	line:45
+MI_MAX_TASKS	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	54;"	v	line:54
+MI_MAX_TASKS::10	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	38;"	d	line:38
+MI_SBYTE	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	26;"	t	line:26
+MI_STATE_OFFSET::0x20	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	20;"	d	line:20
+MI_SUCCESS::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.H	16;"	d	line:16
+MI_SWORD	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	28;"	t	line:28
+MI_TRUE::1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.C	26;"	d	line:26	file:
+MI_WORD	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	27;"	t	line:27
+MiCos	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	77;"	f	line:77	signature:(void)
+MiCos	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	61;"	p	line:61	signature:(void)
+MiCurrentEvent	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	46;"	v	line:46
+MiEventWrite	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	482;"	f	line:482	signature:( MICOS_EVENT Event )
+MiEventWrite	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	78;"	p	line:78	signature:(MICOS_EVENT EventType)
+MiFatalError	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	47;"	v	line:47
+MiGetCurrentState	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	406;"	f	line:406	signature:( void )
+MiGetCurrentState	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	74;"	p	line:74	signature:( void )
+MiStateTable	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	57;"	v	line:57
+MiTaskCreate	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	206;"	f	line:206	signature:( TMiTask * TaskPtr )
+MiTaskCreate	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	70;"	p	line:70	signature:(TMiTask * TaskPtr)
+MiTaskDestroy	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	249;"	f	line:249	signature:( TMiTask * TaskPtr )
+MiTaskDestroy	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	72;"	p	line:72	signature:(TMiTask * TaskPtr)
+MiTaskList	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	48;"	v	line:48
+MiTasksRun	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	169;"	f	line:169	signature:( void )
+MiTasksRun	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	76;"	p	line:76	signature:(void)
+NANO_EVENT	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	80;"	g	line:80
+NANO_EVENT	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	82;"	t	line:82
+NANO_MAX::20	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	20;"	d	line:20
+NUMBER_OF_INSTRUCTIONS_IN_PAGE::512	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	50;"	d	line:50
+NUMBER_OF_INSTRUCTIONS_IN_ROW::64	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	51;"	d	line:51
+NUMBER_OF_ROWS_IN_PAGE::(NUMBER_OF_INSTRUCTIONS_IN_PAG	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	53;"	d	line:53
+NUM_DATA_EE_PAGES::2	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	44;"	d	line:44
+NextStatePtr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	86;"	m	line:86	struct:_STATE_TRANS_ENTRY
+OutputPort	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	226;"	f	line:226	signature:(char port, char bitNumber, char bitValue)
+OutputPort	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	30;"	p	line:30	signature:(char port, char bitNumber, char bitValue)
+PAGE_CURRENT::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	54;"	d	line:54
+PAGE_EXPIRED::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	55;"	d	line:55
+PAGE_NOT_AVAILABLE::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	56;"	d	line:56
+PAGE_NOT_CURRENT::1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	57;"	d	line:57
+PAGE_NOT_EXPIRED::1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	58;"	d	line:58
+PCputc	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	371;"	f	line:371	signature:(char c)
+PCputc	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	27;"	p	line:27	signature:(char c)
+PCputs	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	364;"	f	line:364	signature:(char * PCdata)
+PCputs	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	28;"	p	line:28	signature:(char *)
+PLLMODE::2	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	19;"	d	line:19	file:
+PLLMODE::4	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	23;"	d	line:23	file:
+PROGRAM_ROW::0x4001	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	45;"	d	line:45
+PROGRAM_WORD::0x4003	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	46;"	d	line:46
+PackEE	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	254;"	f	line:254	signature:(void)
+PackEE	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	118;"	p	line:118	signature:(void)
+ProcessScpi	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	94;"	p	line:94	signature:(char* ScpiCommandLine)
+ProcessScpi	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	686;"	f	line:686	signature:(char* ScpiCommandLine)
+ProcessScpi	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	38;"	p	line:38	signature:(char* ScpiCommandLine)
+ProcessState	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	17;"	v	line:17
+READ_MAX::100	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	14;"	d	line:14
+RES_DONE	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	58;"	e	line:58	enum:_MICOS_RESULT
+RES_EVENT_QUEUE_FULL	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	57;"	e	line:57	enum:_MICOS_RESULT
+RES_INVALID_TASK	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	56;"	e	line:56	enum:_MICOS_RESULT
+RES_MAX_TASKS	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	54;"	e	line:54	enum:_MICOS_RESULT
+RES_NANO	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	67;"	e	line:67
+RES_OK	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	53;"	e	line:53	enum:_MICOS_RESULT
+RES_SAME_STATE	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	52;"	e	line:52	enum:_MICOS_RESULT
+RES_SCPI	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	68;"	e	line:68
+RES_TASK_LIST_FULL	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	55;"	e	line:55	enum:_MICOS_RESULT
+RES_TIMER	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	66;"	e	line:66
+ReadMCP9801	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	252;"	f	line:252	signature:(void)
+ReadMCP9801	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	31;"	p	line:31	signature:(void)
+ReadPMHigh	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	105;"	p	line:105	signature:(int)
+ReadPMLow	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	106;"	p	line:106	signature:(int)
+ReadResults	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	18;"	v	line:18
+Result	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	85;"	m	line:85	struct:_STATE_TRANS_ENTRY
+ResultCode	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	209;"	l	line:209
+ResultCode	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	252;"	l	line:252
+SCPI::1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	17;"	d	line:17
+SCPI_EVENT	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	84;"	g	line:84
+SCPI_EVENT	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	86;"	t	line:86
+STATUS_AVAILABLE::18	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	59;"	d	line:59
+STATUS_CURRENT::19	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	60;"	d	line:60
+STATUS_EXPIRED::20	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	61;"	d	line:61
+ScpiCommandLine	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	286;"	l	line:286
+ScpiCount	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	22;"	v	line:22
+ScpiExit	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	152;"	v	line:152
+ScpiIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	154;"	v	line:154
+SetCount	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	88;"	v	line:88
+SetMode	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	22;"	v	line:22
+SetPageCorruptStatus::(x)dataEEFlags.pageCorrupt=x	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	67;"	d	line:67
+SetPageExpiredPage::(x)dataEEFlags.expiredPage=x	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	70;"	d	line:70
+SetPageIllegalAddress::(x)dataEEFlags.IllegalAddress=	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	73;"	d	line:73
+SetPagePackBeforeInit::(x)dataEEFlags.packBeforeInit=	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	76;"	d	line:76
+SetPagePackBeforePageFull::(x)dataEEFlags.packBeforePageF	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	79;"	d	line:79
+SetPagePackSkipped::(x)dataEEFlags.packSkipped=x	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	82;"	d	line:82
+SetPageWriteError::(x)dataEEFlags.writeError=x	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	85;"	d	line:85
+SetaddrNotFound::(x)dataEEFlags.addrNotFound=x	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	64;"	d	line:64
+StatePtr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	84;"	m	line:84	struct:_STATE_TRANS_ENTRY
+StateResult	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	310;"	l	line:310
+TIMER_EVENT	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	75;"	g	line:75
+TIMER_EVENT	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	78;"	t	line:78
+TMiFatalErrorFlag	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	105;"	t	line:105
+TMiQueue	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.C	37;"	t	line:37	file:
+TMiResult	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	59;"	t	line:59
+TMiSWord	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	38;"	t	line:38
+TMiState	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	67;"	t	line:67
+TMiStatePtr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	68;"	t	line:68
+TMiStateTransEntry	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	87;"	t	line:87
+TMiStateTransEntryPtr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	87;"	t	line:87
+TMiTask	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	64;"	t	line:64
+TMiWord	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	37;"	t	line:37
+U1RX_BUFFER_SIZE::512	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	32;"	d	line:32	file:
+U1RxBuffer	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	40;"	v	line:40
+U1RxCurrentPointer	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	41;"	v	line:41
+U1RxIntPointer	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	41;"	v	line:41
+U1TX_BUFFER_SIZE::512	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	33;"	d	line:33	file:
+U1TxBuffer	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	42;"	v	line:42
+U1TxCurrentPointer	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	43;"	v	line:43
+U1TxIntPointer	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	43;"	v	line:43
+U1baudRate	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	52;"	v	line:52
+U2RX_BUFFER_SIZE::2048	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	34;"	d	line:34	file:
+U2RxBuffer	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	44;"	v	line:44
+U2RxCurrentPointer	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	45;"	v	line:45
+U2RxIntPointer	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	45;"	v	line:45
+U2TX_BUFFER_SIZE::512	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	35;"	d	line:35	file:
+U2TxBuffer	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	46;"	v	line:46
+U2TxCurrentPointer	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	47;"	v	line:47
+U2TxIntPointer	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	47;"	v	line:47
+U2baudRate	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	53;"	v	line:53
+UnlockPM	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	107;"	p	line:107	signature:(void)
+UnlockWrite	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	107;"	f	line:107	signature:(void)
+UnlockWrite	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	113;"	p	line:113	signature:(void)
+Unused1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	97;"	m	line:97
+Unused2	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	98;"	m	line:98
+Unused3	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	99;"	m	line:99
+Unused4	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	100;"	m	line:100
+Unused5	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	101;"	m	line:101
+Unused6	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	102;"	m	line:102
+Unused7	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	103;"	m	line:103
+UserExits	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	161;"	f	line:161	signature:(void)
+UserExits	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	30;"	p	line:30	signature:(void)
+VALUE::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	17;"	d	line:17
+Word	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	93;"	m	line:93
+WritePMHigh	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	108;"	p	line:108	signature:(int, int)
+WritePMHighB	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	109;"	p	line:109	signature:(int, int)
+WritePMLow	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	110;"	p	line:110	signature:(int, int)
+WritePMLowB	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	111;"	p	line:111	signature:(int, int)
+XTFREQ::7372800	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	18;"	d	line:18	file:
+XTFREQ::8300000	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	22;"	d	line:22	file:
+_MICOS_EVENT	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	45;"	g	line:45
+_MICOS_RESULT	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	51;"	g	line:51
+_ReadPMHigh	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Flash Operations.s	50;"	l	line:50
+_ReadPMLow	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Flash Operations.s	54;"	l	line:54
+_STATE_TRANS_ENTRY	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	83;"	s	line:83
+_T1Interrupt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	461;"	f	line:461	signature:(void)
+_U1RXInterrupt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	384;"	f	line:384	signature:(void)
+_U1TXInterrupt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	407;"	f	line:407	signature:(void)
+_U2RXInterrupt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	417;"	f	line:417	signature:(void)
+_U2TXInterrupt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	451;"	f	line:451	signature:(void)
+_UnlockPM	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Flash Operations.s	58;"	l	line:58
+_WritePMHigh	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Flash Operations.s	73;"	l	line:73
+_WritePMHighB	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Flash Operations.s	77;"	l	line:77
+_WritePMLow	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Flash Operations.s	81;"	l	line:81
+_WritePMLowB	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Flash Operations.s	85;"	l	line:85
+__MI_APP_H	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	2;"	d	line:2
+__MI_COS_H	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.H	2;"	d	line:2
+__MI_QUEUE_H	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.H	2;"	d	line:2
+_disable	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	171;"	f	line:171	signature:(void)
+_disable	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	93;"	p	line:93	signature:(void)
+_disable	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	41;"	p	line:41	file:	signature:(void)
+_enable	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	159;"	f	line:159	signature:(void)
+_enable	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	92;"	p	line:92	signature:(void)
+_enable	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	40;"	p	line:40	file:	signature:(void)
+a	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	217;"	l	line:217
+a	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	386;"	l	line:386
+a	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	419;"	l	line:419
+addrNotFound	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	92;"	m	line:92
+argumentActive	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	15;"	v	line:15
+argumentCount	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	31;"	m	line:31	struct:scpi_struct
+argumentCount	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	15;"	v	line:15
+argumentCurrent	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	15;"	v	line:15
+arrayIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	38;"	v	line:38
+arrayMax	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	40;"	m	line:40	struct:variable_struct
+arrayMax	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	21;"	v	line:21
+c	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	284;"	l	line:284
+calcGetArrayIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	41;"	f	line:41	signature:(unsigned char type)
+calcPutArrayIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	74;"	f	line:74	signature:(void)
+charArray	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	126;"	v	line:126
+charDef::5	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	26;"	d	line:26
+charPtr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	27;"	v	line:27
+charValuesPtr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	26;"	v	line:26
+checkPC	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	180;"	f	line:180	signature:(void)
+checkPC	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	25;"	p	line:25	signature:(void)
+checkSW1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	187;"	f	line:187	signature:(void)
+checkSW1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	29;"	p	line:29	signature:(void)
+cmdptr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	23;"	v	line:23
+commandIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	30;"	m	line:30	struct:scpi_struct
+conditionalIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	40;"	v	line:40
+conditionalMax	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	40;"	v	line:40
+conditionalMode	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	39;"	v	line:39
+count1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	119;"	l	line:119
+currentOffset	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	259;"	l	line:259
+currentPage	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	203;"	l	line:203
+currentPage	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	256;"	l	line:256
+currentPage	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	442;"	l	line:442
+currentPage	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	556;"	l	line:556
+currentPage	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	634;"	l	line:634
+dataEEFlags	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	87;"	v	line:87
+dataEEFlags_sh	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	264;"	l	line:264
+dataEEFlags_sh	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	638;"	l	line:638
+dataEEval	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	204;"	l	line:204
+dayIndex::14	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	112;"	d	line:112
+dayModes::7	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	114;"	d	line:114
+dayType::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	113;"	d	line:113
+debounce	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	186;"	v	line:186
+decodeCommand	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	476;"	f	line:476	signature:(char* charPtr)
+decodeCommand	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	19;"	p	line:19	signature:(char* charPtr)
+decodePtr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	117;"	l	line:117
+decodePtr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	293;"	l	line:293
+decodePtr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	477;"	l	line:477
+def	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	25;"	v	line:25
+defCommands	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	71;"	v	line:71
+defIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	11;"	v	line:11
+displayFrequencyRateIndex::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	127;"	d	line:127
+displayFrequencyRateModes::7	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	129;"	d	line:129
+displayFrequencyRateType::2	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	128;"	d	line:128
+displayTemperature	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	185;"	v	line:185
+doubleArray	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	147;"	v	line:147
+doubleDef::4	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	25;"	d	line:25
+emulationPages	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	92;"	v	line:92
+enumIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	13;"	v	line:13
+enumLimit	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	13;"	v	line:13
+enumLoop	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	13;"	v	line:13
+enumValueIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	12;"	v	line:12
+enumeratedArray	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	32;"	v	line:32
+enumeratedCount	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	32;"	m	line:32	struct:scpi_struct
+enumeratedIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	33;"	m	line:33	struct:scpi_struct
+erasePage	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	440;"	l	line:440
+eseIndex::1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	100;"	d	line:100
+eseModes::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	102;"	d	line:102
+eseType::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	101;"	d	line:101
+esrIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	151;"	v	line:151
+event	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	441;"	l	line:441
+event_manager	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	38;"	p	line:38	file:	signature:(void)
+event_manager	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	438;"	f	line:438	file:	signature:(void)
+expiredPage	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	93;"	m	line:93
+findScpi	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	115;"	f	line:115	signature:(char* charPtr,unsigned char type)
+findScpiQueryReturn	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	300;"	l	line:300
+findScpiReturn	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	299;"	l	line:299
+findScpiReturn	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	479;"	l	line:479
+findVariable	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	235;"	f	line:235	signature:(void)
+findVariable	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	21;"	p	line:21	signature:(void)
+format	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	113;"	v	line:113
+formatIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	43;"	m	line:43	struct:variable_struct
+fromPtr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	30;"	v	line:30
+fromPtr1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	116;"	l	line:116
+full	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.C	36;"	m	line:36	file:
+getDouble	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	85;"	f	line:85	signature:(unsigned char type)
+getDouble	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	32;"	p	line:32	signature:(unsigned char type)
+getInt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	94;"	f	line:94	signature:(unsigned char type)
+getInt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	25;"	p	line:25	signature:(unsigned char type)
+getLongInt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	102;"	f	line:102	signature:(unsigned char type)
+getLongInt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	26;"	p	line:26	signature:(unsigned char type)
+getPCKey	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	216;"	f	line:216	signature:(void)
+getPCKey	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.h	26;"	p	line:26	signature:(void)
+getScpiVariable	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	220;"	f	line:220	signature:(char *varPtr)
+getScpiVariable	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	22;"	p	line:22	signature:(char* varPtr)
+getUnsignedChar	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	110;"	f	line:110	signature:(unsigned char type)
+getUnsignedChar	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	24;"	p	line:24	signature:(unsigned char type)
+head	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.C	34;"	m	line:34	file:
+hourIndex::18	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	115;"	d	line:115
+hourModes::7	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	117;"	d	line:117
+hourType::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	116;"	d	line:116
+i	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	202;"	l	line:202
+i	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	261;"	l	line:261
+i	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	559;"	l	line:559
+index	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	171;"	l	line:171
+index	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	208;"	l	line:208
+index	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	251;"	l	line:251
+index	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	364;"	l	line:364
+index1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	365;"	l	line:365
+index1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	285;"	l	line:285
+index1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	118;"	l	line:118
+initialize_micos	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	109;"	f	line:109	file:	signature:(void)
+initialize_micos	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	34;"	p	line:34	file:	signature:(void)
+intArray	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	139;"	v	line:139
+intDef::2	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	23;"	d	line:23
+latch	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	558;"	l	line:558
+latch	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	637;"	l	line:637
+latchAddr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	262;"	l	line:262
+latchData	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	263;"	l	line:263
+longIntArray	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	143;"	v	line:143
+longIntDef::3	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	24;"	d	line:24
+loop	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	193;"	v	line:193
+main	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	89;"	f	line:89	signature:(void)
+measureStateChange	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	206;"	f	line:206	signature:(unsigned char measureState)
+measureStateChange	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	138;"	p	line:138	signature:(unsigned char measureState)
+measureStateIndex::6	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	124;"	d	line:124
+measureStateModes::7	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	126;"	d	line:126
+measureStateType::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	125;"	d	line:125
+minuteIndex::22	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	118;"	d	line:118
+minuteModes::7	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	120;"	d	line:120
+minuteType::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	119;"	d	line:119
+modes	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	41;"	m	line:41	struct:variable_struct
+monthIndex::10	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	109;"	d	line:109
+monthModes::7	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	111;"	d	line:111
+monthType::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	110;"	d	line:110
+nanoArray	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	61;"	v	line:61
+nanoData	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	60;"	v	line:60
+nanoDataTemp	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	62;"	v	line:62
+nanoIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	56;"	v	line:56
+nanoIndex1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	57;"	v	line:57
+nanoIndex2	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	58;"	v	line:58
+nanoState	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	59;"	v	line:59
+nextLoc	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	636;"	l	line:636
+p1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	255;"	l	line:255
+p2	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	256;"	l	line:256
+p3	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	257;"	l	line:257
+packBeforeInit	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	95;"	m	line:95
+packBeforePageFull	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	94;"	m	line:94
+packSkipped	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	96;"	m	line:96
+packedOffset	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	260;"	l	line:260
+packedPage	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	257;"	l	line:257
+packedPage	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	444;"	l	line:444
+pageCnt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	439;"	l	line:439
+pageCorrupt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	98;"	m	line:98
+pmOffset	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	172;"	l	line:172
+pmOffset	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	205;"	l	line:205
+pmOffset	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	557;"	l	line:557
+pmOffset	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	635;"	l	line:635
+prevTemperature	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	249;"	v	line:249
+putDouble	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	81;"	f	line:81	signature:(double val)
+putDouble	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	33;"	p	line:33	signature:(double val)
+putInt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	90;"	f	line:90	signature:(int val)
+putInt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	29;"	p	line:29	signature:(int val)
+putLongInt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	98;"	f	line:98	signature:(long int val)
+putLongInt	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	31;"	p	line:31	signature:(long val)
+putScpiVariable	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	228;"	f	line:228	signature:(char *varPtr, unsigned char val)
+putScpiVariable	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	23;"	p	line:23	signature:(char* varPtr, unsigned char val)
+putUnsignedChar	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	106;"	f	line:106	signature:(unsigned char val)
+putUnsignedChar	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	27;"	p	line:27	signature:(unsigned char val)
+queue	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.C	43;"	v	line:43	file:
+queue_read	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.C	121;"	f	line:121	signature:(MI_BYTE *pEvent)
+queue_read	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.H	26;"	p	line:26	signature:( MI_BYTE *pEvent)
+queue_write	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.C	74;"	f	line:74	signature:(MI_BYTE Event )
+queue_write	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.H	24;"	p	line:24	signature:( MI_BYTE Event )
+readResultsPtr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	294;"	l	line:294
+readScpi	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	292;"	f	line:292	signature:(char* charPtr,unsigned char type)
+readScpi	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	20;"	p	line:20	signature:(char* charPtr,unsigned char type)
+removeComments	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	254;"	f	line:254	signature:(char* charPtr)
+removeComments	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	18;"	p	line:18	signature:(char* charPtr)
+result	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	121;"	l	line:121
+saveScpiQueryIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	301;"	l	line:301
+saveScpiWriteIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	302;"	l	line:302
+savedTBLPAG	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	206;"	l	line:206
+savedTBLPAG	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	258;"	l	line:258
+savedTBLPAG	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	441;"	l	line:441
+savedTBLPAG	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	555;"	l	line:555
+savedTBLPAG	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	633;"	l	line:633
+scpi	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	13;"	v	line:13
+scpiCommands	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	36;"	v	line:36
+scpiPtr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	29;"	v	line:29
+scpi_struct	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	29;"	s	line:29
+secondIndex::26	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	121;"	d	line:121
+secondModes::7	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	123;"	d	line:123
+secondType::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	122;"	d	line:122
+serialNumberIndex::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	130;"	d	line:130
+serialNumberModes::7	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	132;"	d	line:132
+serialNumberType::3	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	131;"	d	line:131
+setDate	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	210;"	f	line:210	signature:(int year,unsigned char month,unsigned char day)
+setDate	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	136;"	p	line:136	signature:(int year,unsigned char month,unsigned char day)
+setESR	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	35;"	f	line:35	signature:(unsigned char esr)
+setESR	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.h	28;"	p	line:28	signature:(unsigned char esr)
+setIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	11;"	v	line:11
+setPtr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	25;"	v	line:25
+setRelays	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	246;"	f	line:246	signature:(unsigned char enumIndex,unsigned char relays)
+setSerialNumber	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	201;"	f	line:201	signature:(long int serialNumber)
+setSerialNumber	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	139;"	p	line:139	signature:(long int serialNumber)
+setTime	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	213;"	f	line:213	signature:(unsigned char hour,unsigned char minute,unsigned char second)
+setTime	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	137;"	p	line:137	signature:(unsigned char hour,unsigned char minute,unsigned char second)
+setTurns	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	243;"	f	line:243	signature:(long int turns)
+sh_SR	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	109;"	l	line:109
+shortIntDef::1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	22;"	d	line:22
+sreIndex::3	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	103;"	d	line:103
+sreModes::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	105;"	d	line:105
+sreType::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	104;"	d	line:104
+start	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.C	33;"	m	line:33	file:
+startupFlag	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	183;"	v	line:183
+stateExit	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	156;"	f	line:156	signature:(void)
+stateExit	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	43;"	p	line:43	file:	signature:(void)
+stateTest	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	118;"	f	line:118	signature:(void)
+stateTest	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	42;"	p	line:42	file:	signature:(void)
+state_manager	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	308;"	f	line:308	file:	signature:(void)
+state_manager	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	36;"	p	line:36	file:	signature:(void)
+state_one	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	55;"	p	line:55	signature:(void)
+state_two	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	56;"	p	line:56	signature:(void)
+status	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	135;"	l	line:135
+status	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	440;"	l	line:440
+status	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	484;"	l	line:484
+status1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	284;"	l	line:284
+status1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	387;"	l	line:387
+status1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	420;"	l	line:420
+status2	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	284;"	l	line:284
+statusByte	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	134;"	l	line:134
+statusOffset	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	133;"	l	line:133
+statusOffset	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.c	443;"	l	line:443
+string1	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	304;"	l	line:304
+tail	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_QUEUE.C	35;"	m	line:35	file:
+taskMain	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	194;"	f	line:194	signature:(void)
+taskMain	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	39;"	p	line:39	file:	signature:(void)
+taskProcessScpi	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	282;"	f	line:282	signature:(void)
+taskProcessScpi	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	40;"	p	line:40	file:	signature:(void)
+task_manager	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	139;"	f	line:139	file:	signature:(void)
+task_manager	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_COS.C	35;"	p	line:35	file:	signature:(void)
+task_one	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	58;"	p	line:58	signature:(void)
+task_two	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\MI_APP.H	59;"	p	line:59	signature:(void)
+tempBuff	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	184;"	v	line:184
+tempChar	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	483;"	l	line:483
+tempCommandLine	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	303;"	l	line:303
+tempData	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	295;"	l	line:295
+tempData	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	478;"	l	line:478
+tempIdata	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	297;"	l	line:297
+tempIdata	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	481;"	l	line:481
+tempIlData	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	298;"	l	line:298
+tempIlData	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	482;"	l	line:482
+tempIsData	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	296;"	l	line:296
+tempIsData	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	480;"	l	line:480
+temperature	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	249;"	v	line:249
+temperatureArray	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	188;"	v	line:188
+temperatureCount	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	190;"	v	line:190
+temperatureIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	189;"	v	line:189
+temperatureSensorEnabled	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	250;"	v	line:250
+temperatureTotal	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Main.C	191;"	v	line:191
+tickCounter	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	51;"	v	line:51
+timer250msCounter	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	49;"	v	line:49
+timerCounter	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	48;"	v	line:48
+timerSecondCounter	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	50;"	v	line:50
+turns	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	54;"	v	line:54
+type	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	39;"	m	line:39	struct:variable_struct
+type	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	16;"	v	line:16
+typeptr	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	24;"	v	line:24
+unsignedCharArray	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	134;"	v	line:134
+unsignedCharDef::0	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	21;"	d	line:21
+val	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	89;"	m	line:89
+value	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Hardware.c	105;"	l	line:105
+valueIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	42;"	m	line:42	struct:variable_struct
+valuesIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Scpi.c	14;"	v	line:14
+variable	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	82;"	v	line:82
+variableIndex	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	38;"	m	line:38	struct:variable_struct
+variableName	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.c	91;"	v	line:91
+variable_struct	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	37;"	s	line:37
+writeError	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\DEE Emulation 16-bit.h	99;"	m	line:99
+yearIndex::4	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	106;"	d	line:106
+yearModes::7	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	108;"	d	line:108
+yearType::2	F:\Guildline\Ratio Analysis\Pic24 Diagnostics\Pic24 Diagnostics.h	107;"	d	line:107
